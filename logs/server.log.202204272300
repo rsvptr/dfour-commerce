@@ -1,0 +1,17 @@
+[0mPUT /api/orders/626944040a2f7a22a4afa886/pay [32m200[0m 430.472 ms - 784[0m
+[0mGET /api-docs/ [36m304[0m 3.689 ms - -[0m
+[0mGET /api-docs/swagger-ui.css [36m304[0m 2.505 ms - -[0m
+[0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.138 ms - -[0m
+[0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 1.628 ms - -[0m
+[0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.408 ms - -[0m
+[0mGET /api-docs/favicon-32x32.png [0m-[0m - ms - -[0m
+[0mPOST /api/users/login [31m500[0m 37.405 ms - 789[0m
+[0mGET /api-docs/ [36m304[0m 7.371 ms - -[0m
+[0mGET /api-docs/swagger-ui.css [36m304[0m 3.576 ms - -[0m
+[0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.906 ms - 20730[0m
+[0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.852 ms - -[0m
+[0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.160 ms - -[0m
+[0mGET /api/products/top [32m200[0m 60.521 ms - 2142[0m
+[0mGET /api/products?keyword=&pageNumber=1 [32m200[0m 115.182 ms - 8498[0m
+[0mGET /api/products/top [32m200[0m 77.838 ms - 2142[0m
+[0mGET /api/products?keyword=&pageNumber=1 [32m200[0m 149.058 ms - 8498[0m

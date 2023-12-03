@@ -1,0 +1,47 @@
+version: "3.7"
+
+services:
+  server:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: server-dc
+    container_name: node-server-dc
+    command: npm run start
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=development
+    networks:
+      - app-network
+
+  client:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: client-dc
+    stdin_open: true
+    container_name: node-client-dc
+    command: npm run start
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+
+  redisdb:
+    image: "redis:alpine"
+    restart: always
+    hostname: redisdb
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis_data:/data
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

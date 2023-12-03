@@ -1,0 +1,9 @@
+[0mGET /api/products [32m200[0m 346.414 ms - 7709[0m
+[0mGET /api/products/top [36m304[0m 97.947 ms - -[0m
+[0mGET /api/products?keyword=&pageNumber=1 [32m200[0m 193.692 ms - 7709[0m
+[0mGET /api-docs/ [32m200[0m 2.204 ms - 3102[0m
+[0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.658 ms - 16903[0m
+[0mGET /api-docs/swagger-ui.css [32m200[0m 11.974 ms - 143980[0m
+[0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 9.101 ms - 339540[0m
+[0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 12.290 ms - 1095130[0m
+[0mGET /api-docs/favicon-32x32.png [32m200[0m 2.300 ms - 628[0m

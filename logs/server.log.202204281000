@@ -1,0 +1,13 @@
+[0mGET /api/products?keyword=&pageNumber=1 [36m304[0m 5.370 ms - -[0m
+[0mGET /api/products/top [36m304[0m 723.910 ms - -[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d55 [31m500[0m 105.182 ms - 304[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d55 [32m200[0m 3.858 ms - 708[0m
+[0mGET /api/products?keyword=&pageNumber=1 [36m304[0m 10.548 ms - -[0m
+[0mGET /api/products/top [36m304[0m 149.556 ms - -[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d5e [31m500[0m 154.027 ms - 304[0m
+[0mGET /api/products/top [36m304[0m 184.806 ms - -[0m
+[0mGET /api/products?keyword=&pageNumber=1 [32m200[0m 401.513 ms - 8498[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d54 [31m500[0m 109.795 ms - 304[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d54 [32m200[0m 3.573 ms - 692[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d5c [31m500[0m 95.910 ms - 304[0m
+[0mGET /api/products/61dc27d36ded5d3ce4522d5c [32m200[0m 2.992 ms - 737[0m
