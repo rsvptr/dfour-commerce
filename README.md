@@ -148,7 +148,7 @@ npm run build
 ### Group - 33
 
  - Logu R (S20190010111)  
- - Romy Savin Peter ( S20190010153)  
- - Muzakkir Fazal ( S20190010121)  
- - Krushang Sirikonda ( S20190010164)  
+ - Romy Savin Peter (S20190010153)  
+ - Muzakkir Fazal (S20190010121)  
+ - Krushang Sirikonda (S20190010164)  
  - Abdulrahman Syed (S20190010002)
